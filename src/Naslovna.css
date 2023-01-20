@@ -1,0 +1,44 @@
+.home {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url('https://images.unsplash.com/photo-1598214886806-c87b84b7078b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80')
+}
+.navigation {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 15 0 15;
+    -webkit-box-shadow: 0px 6px 21px -9px #000000; 
+    box-shadow: 0px 6px 21px -9px #000000;
+}
+.nav-item {
+    background-color: transparent !important;
+    height: auto !important;
+    width: auto;
+    padding: 5px;
+    
+}
+.nav-link {
+    margin: 3px;
+    color: black !important;
+    font-size: 18px !important;
+}
+.nav-item:hover {
+    transition: 1000ms !important;
+     background-color: white !important;
+}
+.head {
+    width: auto !important;
+    height: 90%;
+    display: flex;
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 100px !important;
+    color: white;
+}
